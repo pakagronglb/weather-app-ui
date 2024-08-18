@@ -1,61 +1,70 @@
-# weather-app-ui
-This is a simple demo/showcase built and learnt from geeksforgeeks.org of a simple but functional real-time weather data. In this project, React was used for building user interfaces. Tailwind CSS, a utility-first CSS framework. Weather API was also used to gather and display data. 
+# Getting Started with Create React App
 
-## Prerequisite
-- ReactJS
-- Tailwind CSS
-- React Hooks
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Approach:
-**1. State Management:**
-   - Used the useState hook to manage two pieces of state:
-   -    city: Stores the user-inputted city name.
-   -    weatherData: Stores the fetched weather data from the API.
+## Available Scripts
 
-**2. API Data Fetching:**
-   - Created an asynchronous function fetchWeatherData to handle the API call using the fetch function.
-   - Constructed the API endpoint using the weatherapi.com service, including the API key and the user-inputted city.
-   - Used a try-catch block to handle errors during the API call.
-   - Updated the weatherData state with the fetched data if the API call was successful.
-   - Logged the data to the console for debugging purposes.
+In the project directory, you can run:
 
-**3. User Interface (UI):**
-   - Designed a simple UI using JSX with a flex container for centering content vertically and horizontally.
-   - Included an input field for users to enter the city name and a button to trigger the weather data fetching.
-   - Styled the UI elements using Tailwind CSS classes for a clean and responsive design.
+### `npm start`
 
-**4. Displaying Weather Information:**
-   - Conditionally rendered a section to display weather information only if weatherData is available.
-   - Showed relevant weather details such as location, country, current condition, temperature, “feels like” temperature, and wind information.
-   - Used Tailwind CSS classes for styling to enhance the visual presentation of the weather information.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Steps to Create a React Application:
-**Step 1:** Create a react application by using this command
+### `npm test`
 
-```npx create-react-app weather-app```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**Step 2:** After creating your project folder, i.e. PalindromeApp, use the following command to navigate to it:
+### `npm run build`
 
-```cd  weather-app```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Step 3:** Install Tailwind CSS
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-By using below command we will Install the required packages for Tailwind CSS
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```npm install tailwindcss```
+### `npm run eject`
 
-Now, Let’s create the configuration files for tailwindcss
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```npx tailwindcss init``` 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**API Response**
-Here we used weatherapi.com API for getting weather data of different city. so for that you simply need to signup on that API platform, you will get API Key to use in project. then we will hit the url “https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}” to get a specific city weather data.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-**Step to run the Application:**
+## Learn More
 
-```npm start```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Big credits to GeeksforGeeks!!
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
