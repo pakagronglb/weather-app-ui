@@ -1,12 +1,12 @@
 # weather-app-ui
 This is a simple demo/showcase built and learnt from geeksforgeeks.org of a simple but functional real-time weather data. In this project, React was used for building user interfaces. Tailwind CSS, a utility-first CSS framework. Weather API was also used to gather and display data. 
 
-# Prerequisite
+## Prerequisite
 - ReactJS
 - Tailwind CSS
 - React Hooks
 
-# Approach:
+## Approach:
 1. State Management:
    - Used the useState hook to manage two pieces of state:
    -    city: Stores the user-inputted city name.
@@ -30,20 +30,20 @@ This is a simple demo/showcase built and learnt from geeksforgeeks.org of a simp
 - Used Tailwind CSS classes for styling to enhance the visual presentation of the weather information.
 
 
-# Steps to Create a React Application:
+## Steps to Create a React Application:
 Step 1: Create a react application by using this command
 
-npx create-react-app weather-app
+```npx create-react-app weather-app```
 
 Step 2: After creating your project folder, i.e. PalindromeApp, use the following command to navigate to it:
 
-cd  weather-app
+```cd  weather-app```
 
 Step 3: Install Tailwind CSS
 
 By using below command we will Install the required packages for Tailwind CSS
 
-npm install tailwindcss
+```npm install tailwindcss```
 
 Now, Let’s create the configuration files for tailwindcss
 
@@ -55,7 +55,7 @@ Here we used weatherapi.com API for getting weather data of different city. so f
 
 Step to run the Application:
 
-npm start
+```npm start```
 
 
-Big credits to GeeksforGeeks!!
+### Big credits to GeeksforGeeks!!
