@@ -47,7 +47,7 @@ npm install tailwindcss
 
 Now, Let’s create the configuration files for tailwindcss
 
-npx tailwindcss init
+```npx tailwindcss init``` 
 
 
 **API Response**
